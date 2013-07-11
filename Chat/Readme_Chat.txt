@@ -6,7 +6,13 @@ Chat Demo
 
 -----
 
-1. Chat_iOS
+1. Requirement
+
+This example requires the AltSoftSerial to work. Copy the library to Arduino library folder.
+
+-----
+
+2. Chat_iOS
 
 The framework provide four delegate function for your App which will be called back from the low layer of the framework.
 
@@ -60,7 +66,7 @@ Once connected, you can type text to BLE device and it will shows typed text to 
 
 -----
 
-2. Chat_Sketch
+3. Chat_Sketch
 
 Connect your Arduino with BLE Shield to PC. Use Serial Monitor to type and receive data.
 
