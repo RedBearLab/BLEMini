@@ -43,7 +43,7 @@ void loop()
   while ( Serial.available() )
   {
     unsigned char c = Serial.read();
-    if (c != 'd')
+    if (c != 0x0D)
     {
       if (len < 16)
         buf[len++] = c;
