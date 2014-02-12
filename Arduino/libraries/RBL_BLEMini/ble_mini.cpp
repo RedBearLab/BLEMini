@@ -1,5 +1,5 @@
 
-#include "ble_Mini.h"
+#include "ble_mini.h"
 
 // UNO 
 // TX: pin 1
