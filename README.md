@@ -1,8 +1,11 @@
-
 BLEMini
 =======
 
-BLE Mini is a small, certified BLE development board for makers to do their innovative projects. Here are some samples to show how to integrate this board to other platform such as Arduino.
+BLE Mini is a small, certified BLE development board for makers to do their innovative projects. Here are some examples to show how to integrate this board to other platform such as Arduino.
+
+
+Examples
+========
 
 Samples show how to connect iOS/Mac to your Arduino via BLE link. More interesting resource will be added soon.
 
@@ -14,6 +17,7 @@ Chat
 - A simple chat demo for iOS to talk to Arduino
 - Please refer to "Readme_Chat.txt" for details
 
+
 Requirement
 ===========
 
@@ -22,3 +26,26 @@ This requires BLE Framework to compile for iOS or Mac samples.
 If you are not sure how to do, we highly suggest to downlaod a full stable package so that you can try BLE Mini as fast as possible.
 https://github.com/RedBearLab/Release/tree/master/BLEMini
 
+
+License
+=======
+
+Copyright (c) 2013 RedBearLab
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal 
+in the Software without restriction, including without limitation the rights 
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
