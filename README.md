@@ -1,7 +1,20 @@
 BLEMini
 =======
 
-BLE Mini is a small, certified BLE development board for makers to do their innovative projects. Here are some examples to show how to integrate this board to other platform such as Arduino.
+BLE Mini is a small, certified BLE development board for makers to do their innovative projects. It can be used for BLE development using TI CC254x SDK.
+
+We also provide some examples to show how to integrate this board to other platform such as Arduino. It can also be run independently.
+
+
+Dependency
+==========
+
+BLE Mini requires different firmwares to function, so it depends on some opensource projects:<br/>
+- Biscuit
+- MiniBeacon
+- HCI
+
+All are hosted at https://github.com/RedBearLab
 
 
 Examples
@@ -16,6 +29,10 @@ SimpleControls
 Chat
 - A simple chat demo for iOS to talk to Arduino
 - Please refer to "Readme_Chat.txt" for details
+
+MiniBeacon
+- Implemented Apple's iBeacon spec.
+- Use our MiniBeacon iOS App to set the parameters.
 
 
 Requirement
