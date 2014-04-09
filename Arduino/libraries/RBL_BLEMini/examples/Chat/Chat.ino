@@ -29,33 +29,24 @@ unsigned char len = 0;
 
 void loop()
 {
-  if (BLEMini.available())
+  if ( BLEMini.available() )
   {
     delay(5);
-    while ( BLEMini.available())
-    {
+    
+    while ( BLEMini.available() )
       Serial.write( BLEMini.read() );
-    }
     
     Serial.println();
   }
-
-  while ( Serial.available() )
+  
+  if ( Serial.available() )
   {
-    unsigned char c = Serial.read();
-    if (c != 0x0A)
-    {
-      if (len < 16)
-        buf[len++] = c;
-    }
-    else
-    {
-      buf[len++] = 0x0A;
-      
-      for (int i = 0; i < len; i++)
-         BLEMini.write(buf[i]);
-      len = 0;
-    }
+    delay(5);
+
+    while ( Serial.available() )
+      BLEMini.write( Serial.read() );
+    
+    BLEMini.println();
   }
 }
 
