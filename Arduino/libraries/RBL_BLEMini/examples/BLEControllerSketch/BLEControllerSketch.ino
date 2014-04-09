@@ -1,4 +1,3 @@
-
 /*
  *  When use DUE board, the Arduino IDE should be the version of 1.5.4 or above.
  *  Board       BLEMini(TX, RX) 
@@ -48,7 +47,7 @@ void setup()
   
   #if !defined(__AVR_ATmega328P__)
   Serial.begin(57600);
-  while(!Serial);  
+  //while(!Serial);  // Enable this line if you want to debug on Leonardo
   Serial.println("BLE Arduino Slave ");
   #endif
 
