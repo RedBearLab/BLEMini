@@ -29,9 +29,15 @@ unsigned char len = 0;
 
 void loop()
 {
-  while ( BLEMini.available())
+  if (BLEMini.available())
   {
-    Serial.write( BLEMini.read() );
+    delay(5);
+    while ( BLEMini.available())
+    {
+      Serial.write( BLEMini.read() );
+    }
+    
+    Serial.println();
   }
 
   while ( Serial.available() )
