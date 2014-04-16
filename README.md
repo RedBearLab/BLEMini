@@ -41,11 +41,17 @@ Resources
 1. TI CC254x SDK<br/>
 http://www.ti.com/tool/ble-stack
 
+2. RBL BLE Mini<br/>
+http://redbearlab.com/blemini/
+
+3. RBL BLE Mini Forum - Discussion and sharing<br/>
+https://redbearlab.zendesk.com/forums
+
 
 License
 =======
 
-Copyright (c) 2013 RedBearLab
+Copyright (c) 2013-2014 RedBearLab
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal 
