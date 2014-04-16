@@ -45,8 +45,6 @@ void loop()
 
     while ( Serial.available() )
       BLEMini.write( Serial.read() );
-    
-    BLEMini.println();
   }
 }
 
