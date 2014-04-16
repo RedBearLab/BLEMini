@@ -35,13 +35,11 @@ MiniBeacon
 - Use our MiniBeacon iOS App to set the parameters.
 
 
-Requirement
-===========
+Resources
+=========
 
-This requires BLE Framework to compile for iOS or Mac samples. 
-
-If you are not sure how to do, we highly suggest to downlaod a full stable package so that you can try BLE Mini as fast as possible.
-https://github.com/RedBearLab/Release/tree/master/BLEMini
+1. TI CC254x SDK<br/>
+http://www.ti.com/tool/ble-stack
 
 
 License
