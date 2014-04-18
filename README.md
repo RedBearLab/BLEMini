@@ -12,9 +12,11 @@ Dependency
 BLE Mini requires different firmwares to function, so it depends on some opensource projects:<br/>
 - Biscuit
 - MiniBeacon
-- HCI
+- BLE_HCI
 
 All are hosted at https://github.com/RedBearLab
+
+Please refers to those repositories for source code and details.
 
 
 Examples
