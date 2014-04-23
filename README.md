@@ -5,6 +5,8 @@ BLE Mini is a small, certified BLE development board for makers to do their inno
 
 We also provide some examples to show how to integrate this board to other platform such as Arduino. It can also be run independently.
 
+You can write your own firmware for the BLE Mini, get TI CC254x SDK and IAR 8051 C compiler from their website. The current version for CC254x SDK is v1.4.0 and IAR 8051 C compiler is v8.20.2.
+
 
 Dependency
 ==========
@@ -43,10 +45,16 @@ Resources
 1. TI CC254x SDK<br/>
 http://www.ti.com/tool/ble-stack
 
-2. RBL BLE Mini<br/>
+2. TI CC254x forum<br/>
+http://e2e.ti.com/support/low_power_rf/f/538.aspx 
+
+3. IAR C compiler for 8051 (CC254x is based on 8051)<br/>
+http://www.iar.com/Products/IAR-Embedded-Workbench/8051/
+
+4. RBL BLE Mini<br/>
 http://redbearlab.com/blemini/
 
-3. RBL BLE Mini Forum - Discussion and sharing<br/>
+5. RBL BLE Mini Forum - Discussion and sharing<br/>
 https://redbearlab.zendesk.com/forums
 
 
