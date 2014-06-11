@@ -48,13 +48,19 @@ http://www.ti.com/tool/ble-stack
 2. TI CC254x forum<br/>
 http://e2e.ti.com/support/low_power_rf/f/538.aspx 
 
-3. IAR C compiler for 8051 (CC254x is based on 8051)<br/>
+3. TI CC2540 Datasheet
+http://www.ti.com/lit/ds/symlink/cc2540.pdf
+
+4. TI CC254x Software Developer's Guide
+http://www.ti.com/lit/swru271
+ 
+5. IAR C compiler for 8051 (CC254x is based on 8051)<br/>
 http://www.iar.com/Products/IAR-Embedded-Workbench/8051/
 
-4. RBL BLE Mini<br/>
+6. RBL BLE Mini<br/>
 http://redbearlab.com/blemini/
 
-5. RBL BLE Mini Forum - Discussion and sharing<br/>
+7. RBL BLE Mini Forum - Discussion and sharing<br/>
 https://redbearlab.zendesk.com/forums
 
 
