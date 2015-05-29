@@ -9,7 +9,7 @@ You can write your own firmware for the BLE Mini, get TI CC254x SDK and IAR 8051
 
 Note:
 
-1. TI's bootloader (UBL) on the BLE Mini does not work on Windows 8.1, OSX and Linux. Works fine on Windows 7.
+1. For firmware update, since TI's bootloader (UBL) on the BLE Mini does not work on Windows 8.1, OSX and Linux. Works fine on Windows 7.
 
 2. The CC254x SDK can only work on Windows platform (using IAR C Compiler). Suggest you using TI's CC Debugger for doing your own firmware.
 
@@ -20,7 +20,7 @@ Dependency
 ==========
 
 BLE Mini requires different firmwares to function, so it depends on some opensource projects:<br/>
-- Biscuit
+- Biscuit (a BLE to UART firmware, factory default)
 - MiniBeacon
 - BLE_HCI
 
@@ -32,7 +32,7 @@ Please refers to those repositories for source code and details.
 Examples
 ========
 
-Samples show how to connect iOS/Mac to your Arduino via BLE link. More interesting resource will be added soon.
+Samples show how to connect iOS/Mac to your Arduino via BLE link (with the Biscuit firmware). More interesting resource will be added soon.
 
 SimpleControls
 - This demo shows how to create controls for common Arduino pin settings
@@ -45,6 +45,12 @@ Chat
 MiniBeacon
 - Implemented Apple's iBeacon spec.
 - Use our MiniBeacon iOS App to set the parameters.
+
+
+Update Firmawre
+===============
+
+Only work on Windows PC, press and hold the button on the board and connect it to an USB port, a MSD drive will be mounted and then drag and drop the firmware file (.bin) to the drive.
 
 
 Resources
