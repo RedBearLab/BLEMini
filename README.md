@@ -9,11 +9,11 @@ You can write your own firmware for the BLE Mini, get TI CC254x SDK and IAR 8051
 
 Note:
 
-1. For firmware update, since TI's bootloader (UBL) on the BLE Mini does not work on Windows 8.1, OSX and Linux. Works fine on Windows 7.
+1. For firmware update, since TI's bootloader (UBL) on the BLE Mini does not work on Windows 8.1 or later, OSX and Linux. It only works fine on Windows 7.
 
 2. The CC254x SDK can only work on Windows platform (using IAR C Compiler). Suggest you using TI's CC Debugger for doing your own firmware.
 
-3. If you are using Windows 8.1, Linux or Mac, recommand you to install a copy of Windows 7 using Virtual Box or Parallels Desktop.
+3. If you are using Windows 8.1 or later, Linux or Mac, highly recommend you to install a copy of Windows 7 using Virtual Box or Parallels Desktop.
 
 
 Dependency
