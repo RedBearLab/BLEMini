@@ -20,9 +20,9 @@ Dependency
 ==========
 
 BLE Mini requires different firmwares to function, so it depends on some opensource projects:<br/>
-- Biscuit (a BLE to UART firmware, factory default)
-- MiniBeacon
-- BLE_HCI
+- [Biscuit Firmware](https://github.com/RedBearLab/Biscuit) (a BLE to UART firmware, factory default)
+- [MiniBeacon Firmware](https://github.com/RedBearLab/MiniBeacon)
+- [BLE_HCI](https://github.com/RedBearLab/BLE_HCI)
 
 All are hosted at https://github.com/RedBearLab
 
